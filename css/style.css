@@ -4,28 +4,40 @@
 @-o-viewport { width: device-width; zoom: 1.0; }
 @viewport { width: device-width; zoom: 1.0; }
 
+::selection {
+  color: #fff;
+  background: #7746E8;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #7746E8;
+  text-shadow: none;
+}
+
 a{
   color: #7746E8;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
 }
 
 a:hover{
-  text-decoration: none;
-}
-
-abbr{
-  border-bottom: 1px dotted;
+  color: #AA90E8;
 }
 
 html{
-  background: #ededed;
+  background: #fcfcfc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIElEQVQYV2N8//79f0FBQUYGAoCgApj+UYV4Q5Lo4AEAZ/MECwJr8gcAAAAASUVORK5CYII=) fixed;
   color: #2f2f2f;
-  min-height: 100%;
-  font-family: lato, sans-serif;
+  font-family: Merriweather, sans-serif;
   line-height: 1.4;
+  border-bottom: 1em solid #7746E8;
+  -webkit-font-smoothing: antialiased;
 }
 
 body{
-  padding: 10% 5%;
+  padding: 2em 5%;
   margin: auto;
   max-width: 34em;
 }
@@ -43,38 +55,19 @@ h1, .headline{
 }
 
 .headline{
-  font-style: italic;
+  font-weight: bold;
+}
+
+h2{
+  margin-top: 2em;
+}
+
+ul{
+  list-style-type: square;
 }
 
 @media (min-width: 37.5em) {
-  p{
+  p, ul{
     font-size: 1.15em;
-  }
-
-  body{
-    padding-left: 50%
-  }
-
-  body:before{
-    font-size: 320px;
-    text-shadow: 10px 10px #7746E8;
-    position: absolute;
-    width: 45%;
-    left: 0;
-    top: 0;
-  }
-}
-
-@media (min-width: 65em) {
-  body:before{
-    font-size: 640px;
-    line-height: 1;
-    text-shadow: 20px 20px #7746E8;
-  }
-}
-
-@media (min-width: 78em) {
-  body{
-    padding: 8em 0 0 32em;
   }
 }
