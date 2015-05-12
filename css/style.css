@@ -59,8 +59,8 @@
 a{
   color: #7746E8;
   font-weight: 700;
-  -webkit-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
+  -webkit-transition: all .2s ease-out;
+          transition: all .2s ease-out;
 }
 
 a:hover{
