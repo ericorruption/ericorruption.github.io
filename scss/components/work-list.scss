@@ -1,0 +1,110 @@
+.work-list{
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+
+  &:after{
+    content: '';
+    display: table;
+  }
+
+  &__item{
+    position: relative;
+    height: 0;
+    padding-bottom: 80%;
+  }
+
+  &__link{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    padding-left: 1em;
+    padding-top: 2em;
+    color: #fff;
+    text-decoration: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 8px rgba(0,0,0,.3);
+
+    // &--f4g{
+    //   background-image: url(../work/future-4-gaming/bg.jpg);
+    // }
+
+    &--uniritter{
+      background: #fff url(../work/uniritter/bg.svg) no-repeat 100% 80px;
+      background: #931B1D url(../work/uniritter/bg.svg) no-repeat center 80px;
+      background-size: 200px auto;
+    }
+
+    &--unificado{
+      background: #4c2b6e url(../work/unificado/pattern.png) repeat;
+      background-size: 30px;
+    }
+
+    &--paqueta{
+      color: $text-color;
+      background: #fff url(../work/paqueta/bg.jpg) no-repeat center top;
+      background-size: 100% 4px;
+      text-shadow: none;
+    }
+
+    &--aragana{
+      background: #a9b2b9 url(../work/aragana/bg.png) no-repeat center;
+    }
+
+    // &--airporting-me{
+    //   background: #5972b3;
+    // }
+  }
+
+  &__agency{
+    display: block;
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 26em) {
+  .work-list__item {
+    float: left;
+    width: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+@media (min-width: 48em) {
+  .work-list__item {
+    width: 25%;
+    padding-bottom: 15%;
+  }
+}
+
+@media (min-width: 64em) {
+  .work-list {
+    margin: 1em 2%;
+
+    &__link {
+      border-radius: 3px;
+    }
+
+    &__item {
+      float: none;
+      display: inline-block;
+      margin: 0 1%;
+      width: 22%;
+      transition: all .15s ease-out;
+      overflow: hidden;
+      box-shadow: 0 0 1px rgba(0,0,0,.075),
+                  0 12px 8px -8px rgba(0,0,0,.2);
+
+      &:hover{
+        transform: translateY(-4px);
+        box-shadow: 0 0 1px rgba(0,0,0,.075),
+                    0 16px 8px -8px rgba(0,0,0,.2);
+      }
+    }
+  }
+}

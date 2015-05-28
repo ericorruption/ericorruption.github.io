@@ -1,0 +1,71 @@
+@-ms-viewport { width: device-width; zoom: 1.0; }
+@-o-viewport { width: device-width; zoom: 1.0; }
+@viewport { width: device-width; zoom: 1.0; }
+
+::selection {
+  color: #fff;
+  background: $link-color;
+  text-shadow: none;
+}
+
+.screen-reader-text {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+svg {
+  max-width: 100%;
+}
+
+a{
+  color: $link-color;
+  font-weight: 700;
+  transition: all .2s ease-out;
+}
+
+html{
+  background: $bg-color;
+  color: $text-color;
+  font-family: $font-family-primary;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  margin: 0;
+}
+
+body:before{
+  content: '\03A3';
+  display: block;
+  font-size: 8.5em;
+  margin-top: 0.25em;
+  text-shadow: 4px 4px 0 $link-color;
+  text-align: center;
+}
+
+@media (min-width: 37.5em) {
+  body:before{
+    font-size: 280px;
+    margin-top: 0;
+    text-shadow: 8px 8px 0 $link-color;
+  }
+
+  p, ul{
+    font-size: 1.15em;
+  }
+}
+
+@media (min-width: 72em) {
+  body:before{
+    margin-top: 0.5em;
+  }
+}
+
+.content-block {
+  max-width: 48em;
+  margin: auto;
+  padding: 0 2%;
+}

@@ -1,0 +1,30 @@
+.social-media{
+  background: $text-color;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  padding: 2em 0 1.75em;
+}
+
+.social-media__item{
+  display: inline-block;
+  vertical-align: middle;
+  width: 19%;
+}
+
+.social-media__link {
+  display: block;
+  margin: auto;
+  max-width: 30px;
+}
+
+@media (min-width: 37.5em) {
+  .social-media__item{
+    width: 40px;
+    margin: 0 2em;
+  }
+
+  .social-media__link {
+    max-width: 40px;
+  }
+}
