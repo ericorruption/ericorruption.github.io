@@ -14,3 +14,24 @@ sass:
     style: :compressed
 gems:
     - jekyll-sitemap
+
+# Front Matter defaults
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+            categories: "blog"
+    -
+        scope:
+            path: "projects"
+            type: "pages"
+        values:
+            layout: "page"
