@@ -1,10 +1,10 @@
 # Site settings
-title: Blog | Eric Quanz
+title: Eric Quanz - Designer turned front-end developer
 email: eric.quanz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Front-end developer and UI / graphic designer
+    based in Porto Alegre, Brazil. Eric Quanz has over 4 years experience
+    in responsive website development and design.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ericquanz.com" # the base hostname & protocol for your site
 twitter_username: ericorruption
