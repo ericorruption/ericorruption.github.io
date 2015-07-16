@@ -1,0 +1,16 @@
+# Site settings
+title: Eric Quanz - Designer turned front-end developer
+email: eric.quanz@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Front-end developer and UI / graphic designer
+    based in Porto Alegre, Brazil. Eric Quanz has over 4 years experience
+    in responsive website development and design.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ericquanz.com" # the base hostname & protocol for your site
+twitter_username: ericorruption
+github_username:  ericorruption
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
