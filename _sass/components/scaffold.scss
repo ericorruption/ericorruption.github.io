@@ -41,30 +41,9 @@ body{
   margin: 0;
 }
 
-body:before{
-  content: '\03A3';
-  display: block;
-  font-size: 8.5em;
-  margin-top: 0.25em;
-  text-shadow: 4px 4px 0 $link-color;
-  text-align: center;
-}
-
 @media (min-width: 37.5em) {
-  body:before{
-    font-size: 280px;
-    margin-top: 0;
-    text-shadow: 8px 8px 0 $link-color;
-  }
-
   p, ul{
     font-size: 1.15em;
-  }
-}
-
-@media (min-width: 72em) {
-  body:before{
-    margin-top: 0.5em;
   }
 }
 
