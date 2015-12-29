@@ -28,9 +28,13 @@ a{
 html{
   background: $bg-color;
   color: $text-color;
-  font-family: $font-family-primary;
+  font-family: $font-family-fallback;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
+
+  &.wf-active {
+    font-family: $font-family-primary;
+  }
 }
 
 body{
