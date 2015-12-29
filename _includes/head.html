@@ -9,7 +9,7 @@
 
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <meta property="og:image" content="http://ericquanz.com/img/facebook.png" />
+    <meta property="og:image" content="{{ '/img/facebook.png' | prepend: site.url }}" />
 
     <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
