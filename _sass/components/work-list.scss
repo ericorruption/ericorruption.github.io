@@ -1,13 +1,14 @@
 .work-list{
   list-style: none;
   padding: 0;
-  margin: 1em 0;
+  margin: 1em 0 4em;
   max-width: 72em;
+  overflow: hidden;
 
   &__item{
     position: relative;
     height: 0;
-    padding-bottom: 80%;
+    padding-bottom: 60%;
   }
 
   &__link{
@@ -80,8 +81,9 @@
 
 @media (min-width: 64em) {
   .work-list {
-    margin: 1em auto;
+    margin: 1em auto 6em;
     width: 96%;
+    overflow: auto;
 
     &__link {
       margin: 0 5%;
