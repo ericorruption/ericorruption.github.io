@@ -2,11 +2,7 @@
   list-style: none;
   padding: 0;
   margin: 1em 0;
-
-  &:after{
-    content: '';
-    display: table;
-  }
+  max-width: 72em;
 
   &__item{
     position: relative;
@@ -84,17 +80,13 @@
 
 @media (min-width: 64em) {
   .work-list {
-    margin: 1em 2%;
+    margin: 1em auto;
+    width: 96%;
 
     &__link {
+      margin: 0 5%;
       border-radius: 3px;
-    }
-
-    &__item {
       float: none;
-      display: inline-block;
-      margin: 0 1%;
-      width: 22%;
       transition: all .15s ease-out;
       overflow: hidden;
       box-shadow: 0 0 1px rgba(0,0,0,.075),
