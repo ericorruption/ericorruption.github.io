@@ -8,13 +8,6 @@
   text-shadow: none;
 }
 
-.screen-reader-text {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-}
-
 svg {
   max-width: 100%;
 }
@@ -39,16 +32,4 @@ html{
 
 body{
   margin: 0;
-}
-
-@media (min-width: 37.5em) {
-  p, ul{
-    font-size: 1.15em;
-  }
-}
-
-.content-block {
-  max-width: 42em;
-  margin: auto;
-  padding: 0 5%;
 }

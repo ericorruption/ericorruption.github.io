@@ -4,10 +4,15 @@
 
 @import '1.config/variables';
 
-@import '2.components/scaffold';
-@import '2.components/type';
-@import '2.components/grid';
-@import '2.components/header';
-@import '2.components/work-list';
-@import '2.components/social-media';
-@import '2.components/call-to-action';
+@import '2.base/defaults';
+@import '2.base/type';
+
+@import '3.components/scaffold';
+@import '3.components/type';
+@import '3.components/grid';
+@import '3.components/header';
+@import '3.components/work-list';
+@import '3.components/social-media';
+@import '3.components/call-to-action';
+
+@import '4.trumps/utilities';
