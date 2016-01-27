@@ -1,14 +1,13 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "UTF-8";
 
-@import 'config/variables';
+@import '1.config/variables';
 
-@import 'components/scaffold';
-@import 'components/type';
-@import 'components/grid';
-@import 'components/header';
-@import 'components/work-list';
-@import 'components/social-media';
-@import 'components/call-to-action';
+@import '2.components/scaffold';
+@import '2.components/type';
+@import '2.components/grid';
+@import '2.components/header';
+@import '2.components/work-list';
+@import '2.components/social-media';
+@import '2.components/call-to-action';
