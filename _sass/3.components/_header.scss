@@ -1,14 +1,11 @@
 .main-header {
   background: $brand-primary;
   margin-bottom: 4em;
-  padding: 2em 0;
+  padding: 2em 5%;
 
   @media (min-width: 32em) {
-    padding-top: 6em;
-  }
-
-  @media (min-width: 48em) {
-    padding-top: 12em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
@@ -17,7 +14,31 @@
   display: inline-block;
   vertical-align: middle;
 
-  @media (min-width: 32em) {
-    max-width: 140px;
+
+}
+
+
+.index {
+  .main-header {
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (min-width: 32em) {
+      padding-top: 6em;
+    }
+
+    @media (min-width: 48em) {
+      padding-top: 12em;
+    }
+  }
+
+  .main-header__content {
+    @extend .content-block;
+  }
+
+  .symbol {
+    @media (min-width: 32em) {
+      max-width: 140px;
+    }
   }
 }
