@@ -8,6 +8,10 @@
   text-shadow: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 svg {
   max-width: 100%;
 }
@@ -21,11 +25,22 @@ a{
 html{
   background: $bg-color;
   color: $text-color;
-  font-family: $font-family-fallback;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
+}
 
-  &.wf-active {
+html,
+button,
+input,
+textarea {
+  font-family: $font-family-fallback;
+}
+
+.wf-active {
+  &,
+  button,
+  input,
+  textarea {
     font-family: $font-family-primary;
   }
 }

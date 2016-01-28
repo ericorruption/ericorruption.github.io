@@ -58,7 +58,25 @@ layout: home
         </li>
     </ul>
 
-    <p class="call-to-action"><strong>Let's work together!</strong>
-        <a class="button" href="mailto:eric.quanz@gmail.com">Send me an email</a>
-    </p>
 </main>
+
+<aside class="content-block">
+  <p class="call-to-action"><strong>Let's work together!</strong>
+      <a class="o-btn o-btn--lg" href="mailto:eric.quanz@gmail.com">Send me an email</a>
+      <br/> or fill the form below.
+  </p>
+
+  <form action="//formspree.io/eric.quanz@gmail.com"
+    method="POST" class="c-contact-form">
+      <label class="o-label c-contact-form__label" for="name">Name</label>
+      <input class="o-input o-input--full" type="text" id="name" name="name">
+
+      <label class="o-label c-contact-form__label" for="email">Email</label>
+      <input class="o-input o-input--full" type="email" id="email" name="_replyto" required>
+
+      <label class="o-label c-contact-form__label" for="message">Message</label>
+      <textarea class="o-input o-input--full" name="message" id="message" required></textarea>
+
+      <button class="o-btn" type="submit">Send</button>
+  </form>
+</aside>

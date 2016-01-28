@@ -1,41 +1,18 @@
-.button{
-  background: $link-color;
-  border-radius: 4px;
-  color: #fff;
-  display: inline-block;
-  line-height: 1.8;
-  padding: 0.15em 1em 0;
-  text-decoration: none;
-  box-shadow: 0 5px 0 darken($link-color, 10%);
-
-  &:hover{
-    background: darken($link-color, 5%);
-    box-shadow: 0 5px 0 darken($link-color, 15%);
-  }
-
-  &:active {
-    transform: translateY(5px);
-    box-shadow: none;
-  }
-}
-
 .call-to-action{
   text-align: center;
   font-size: 1.75em;
-  margin-bottom: 2.75em;
-}
 
-.call-to-action .button{
-  font-size: 0.9em;
+  strong {
+    display: block;
+  }
+
+  .o-btn{
+     margin-bottom: 0.5em;
+   }
 }
 
 @media (min-width: 37.5em) {
   .call-to-action{
     font-size: 2em;
-  }
-
-  .call-to-action .button{
-    font-size: 1em;
-    margin-left: 0.5em;
   }
 }

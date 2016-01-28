@@ -6,6 +6,8 @@
 
 @import '2.base/defaults';
 @import '2.base/type';
+@import '2.base/button';
+@import '2.base/form';
 
 @import '3.components/scaffold';
 @import '3.components/type';
@@ -14,5 +16,6 @@
 @import '3.components/work-list';
 @import '3.components/social-media';
 @import '3.components/call-to-action';
+@import '3.components/contact-form';
 
 @import '4.trumps/utilities';
