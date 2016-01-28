@@ -33,7 +33,7 @@
   }
 
   .main-header__content {
-    @extend .content-block;
+    @extend %o-content-block;
   }
 
   .symbol {
