@@ -16,6 +16,13 @@ svg {
   max-width: 100%;
 }
 
+a,
+button,
+input,
+textarea {
+  outline-color: $brand-primary;
+}
+
 a{
   color: $link-color;
   font-weight: 700;
