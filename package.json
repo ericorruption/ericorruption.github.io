@@ -1,0 +1,26 @@
+{
+  "name": "ericorruption.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericorruption/ericorruption.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericorruption/ericorruption.github.io/issues"
+  },
+  "homepage": "https://github.com/ericorruption/ericorruption.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.2",
+  }
+}

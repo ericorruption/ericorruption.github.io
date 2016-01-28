@@ -1,3 +1,5 @@
+exclude: [node_modules, gulpfile.js]
+
 # Site settings
 title: Eric Quanz - Designer turned front-end developer
 email: eric.quanz@gmail.com
