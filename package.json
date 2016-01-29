@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
+    "start": "browser-sync start --files '_site/**' --proxy localhost:4000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,6 @@
   },
   "homepage": "https://github.com/ericorruption/ericorruption.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.11.1",
-    "gulp": "^3.9.0",
-    "gulp-shell": "^0.5.2",
+    "browser-sync": "^2.11.1"
   }
 }
