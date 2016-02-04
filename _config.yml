@@ -1,4 +1,4 @@
-exclude: [node_modules, gulpfile.js]
+exclude: [node_modules]
 
 # Site settings
 title: Eric Quanz - Designer turned front-end developer
