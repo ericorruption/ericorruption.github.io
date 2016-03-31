@@ -1,4 +1,7 @@
-exclude: [node_modules]
+exclude:
+  - node_modules
+  - README.md
+  - package.json
 
 # Site settings
 title: Eric Quanz - Designer turned front-end developer
