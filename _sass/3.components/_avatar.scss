@@ -1,0 +1,12 @@
+.c-avatar {
+  margin: auto;
+  display: block;
+  max-width: 120px;
+  border-radius: 120px;
+  margin-bottom: 2.5em;
+
+  @media (min-width: 48em) {
+    float: left;
+    margin-right: 2.5em;
+  }
+}

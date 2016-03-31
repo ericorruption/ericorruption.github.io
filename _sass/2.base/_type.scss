@@ -1,21 +1,24 @@
 h1, .o-h1,
 h2, .o-h2 {
   line-height: 1;
-  text-align: center;
   margin: 0;
 }
 
 h1, .o-h1 {
-  line-height: 0.8;
   font-size: 4em;
+  line-height: 1.1;
 
   @media (min-width: 37.5em) {
-    font-size: 8em;
+    font-size: 5em;
   }
 }
 
 h2, .o-h2 {
   font-size: 3em;
+
+  &:before {
+    content: '// '
+  }
 
   @media (min-width: 37.5em) {
     font-size: 4em;
@@ -28,6 +31,6 @@ p {
 
 @media (min-width: 37.5em) {
   p, ul{
-    font-size: 1.15em;
+    font-size: 1.25em;
   }
 }

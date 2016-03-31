@@ -16,6 +16,13 @@
   display: block;
   margin: auto;
   max-width: 30px;
+
+  &:hover {
+    path {
+      animation: 1s rainbow;
+      fill: $brand-primary;
+    }
+  }
 }
 
 @media (min-width: 37.5em) {
@@ -26,5 +33,36 @@
 
   .social-media__link {
     max-width: 40px;
+  }
+}
+
+
+@keyframes rainbow {
+  0% {
+    fill: white;
+  }
+
+  10% {
+    fill: #FF4136;
+  }
+
+  20% {
+    fill: #FF851B;
+  }
+
+  40% {
+    fill: #FFDC00;
+  }
+
+  60% {
+    fill: #2ECC40;
+  }
+
+  80% {
+    fill: #0074D9;
+  }
+
+  100% {
+    fill: $brand-primary;
   }
 }
