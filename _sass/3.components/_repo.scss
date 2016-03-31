@@ -1,0 +1,46 @@
+.repo-list {
+  list-style: none;
+  padding: 0 2%;
+  max-width: 1440px;
+  margin: 2.5em auto;
+}
+
+.repo {
+  padding: .75em 0;
+  margin-bottom: 1em;
+  border-top: 1px solid #ddd;
+
+  &__link {
+    text-decoration: none;
+    display: block;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+    margin: .25em 0 0;
+  }
+
+  &__site {
+    font-size: .75rem;
+  }
+
+  @media (min-width: 48em) {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin-left:  1%;
+    margin-right: 1%;
+  }
+
+  @media (min-width: 60em) {
+    width: 30.5%;
+  }
+
+  @media (min-width: 80em) {
+    width: 22.5%;
+  }
+}

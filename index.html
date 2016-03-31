@@ -57,6 +57,35 @@ layout: home
       </ul>
     </section>
 
+    <section class="o-section">
+      <h2 class="o-content-block">Github projects</h2>
+
+      <ul class="repo-list">
+        {% assign repos = site.github.public_repositories | sort: 'pushed_at' %}
+        {% for repo in repos reversed %}
+
+          {% if repo.fork != true
+              and repo.name != 'george'
+              and repo.name != 'instagrito'
+          %}
+            <li class="repo">
+              <!-- {{ repo.language }} -->
+              <a class="repo__link" href="{{ repo.html_url }}">{{ repo.name }}</a>
+
+              <p class="repo__description">
+                {{ repo.description }}
+              </p>
+
+              {% if repo.homepage and repo.homepage != '' %}
+                <a class="repo__site" href="{{ repo.homepage }}">Website</a>
+              {% endif %}
+            </li>
+          {% endif %}
+
+        {% endfor %}
+      </ul>
+    </section>
+
     <section class="o-section o-content-block">
         <h2>About me</h2>
         <p>I craft responsive websites and web applications

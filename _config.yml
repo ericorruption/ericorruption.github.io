@@ -19,6 +19,10 @@ sass:
     style: :compressed
 gems:
     - jekyll-sitemap
+    - jekyll-github-metadata
+
+repository: ericorruption/ericorruption.github.io
+
 
 # Front Matter defaults
 defaults:
