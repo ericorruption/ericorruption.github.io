@@ -1,7 +1,6 @@
 .repo-list {
   list-style: none;
-  padding: 0 2%;
-  max-width: 1440px;
+  padding: 0 4%;
   margin: 2.5em auto;
 }
 
@@ -42,5 +41,6 @@
 
   @media (min-width: 80em) {
     width: 22.5%;
+    max-width: 290px;
   }
 }
