@@ -23,6 +23,8 @@ gems:
 
 repository: ericorruption/ericorruption.github.io
 
+# Outputting
+permalink: pretty
 
 # Front Matter defaults
 defaults:
