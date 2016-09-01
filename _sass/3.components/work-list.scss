@@ -54,6 +54,13 @@
   right: 7.5%;
 }
 
+.work-list__text--soon {
+  bottom: auto;
+  top: 10%;
+  text-align: right;
+  opacity: .5;
+}
+
 @media (min-width: 26em) {
   .work-list__item {
     float: left;
