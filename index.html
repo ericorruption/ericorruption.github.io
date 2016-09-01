@@ -15,62 +15,63 @@ layout: home
     </section>
 
     <section class="o-section">
-      <h2 class="o-content-block">Projects</h2>
+      <h2 class="u-sr">Projects</h2>
+      <h3 class="o-h2 o-content-block">Project Highlights</h3>
       <ul class="o-row work-list">
           <li class="work-list__item o-col">
-              <a href="http://piccadilly.com.br"
+              <a href="projects/velocitygrowth"
+                  class="work-list__link work-list__link--velocitygrowth">
+                  <span class="work-list__text">VelocityGrowth / 2016</span>
+              </a>
+          </li>
+          <li class="work-list__item o-col">
+              <a href="projects/china-brasil-futebol"
+                  class="work-list__link work-list__link--china-brasil-futebol">
+                  <span class="work-list__text">China Brasil Futebol / 2016</span>
+              </a>
+          </li>
+          <li class="work-list__item o-col">
+              <a href="projects/piccadilly"
                   class="work-list__link work-list__link--piccadilly">
-                  Piccadilly / 2016
+                  <span class="work-list__text">Piccadilly / 2016</span>
               </a>
           </li>
-          <!-- planeta cocacola -->
           <li class="work-list__item o-col">
-              <a href="http://guaibacar.com.br/"
+              <a href="projects/guaibacar"
                   class="work-list__link work-list__link--guaibacar">
-                  Guaibacar / 2015
+                  <span class="work-list__text">Guaibacar / 2015</span>
               </a>
           </li>
-
           <li class="work-list__item o-col">
-              <a href="http://uniritter.surge.sh"
+              <a href="projects/uniritter-pattern-library"
                   class="work-list__link work-list__link--uniritter">
-                  Uniritter Pattern Library / 2015
+                  <span class="work-list__text">Uniritter Pattern Library / 2015</span>
               </a>
           </li>
           <li class="work-list__item o-col">
-              <a href="https://web.archive.org/web/20151009213340/http://www.unificado.com.br/"
-                  class="work-list__link work-list__link--unificado">
-                  Unificado Group / 2014
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="http://www.paquetatheshoecompany.com.br/"
-                  class="work-list__link work-list__link--paqueta">
-                  Paquetá - The Shoe Company / 2013
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="http://www.araganaconcept.com"
-                  class="work-list__link work-list__link--aragana">
-                  Aragäna Store / 2013
+              <a href="projects/static-boilerplate"
+                  class="work-list__link work-list__link--static-boilerplate">
+                  <span class="work-list__text">Static Boilerplate / 2014 ~ Now</span>
               </a>
           </li>
       </ul>
     </section>
 
-    <section class="o-section">
-      <h2 class="o-content-block">Github projects</h2>
+    <section class="o-section o-content-block o-content-block--large">
+      <h3 class="o-h2">Other projects</h3>
+      <p>Recently updated Github projects.</p>
 
       <ul class="repo-list">
-        {% assign repos = site.github.public_repositories | sort: 'pushed_at' %}
-        {% for repo in repos reversed %}
+        {% assign repos = site.github.public_repositories | sort: 'pushed_at' | reverse %}
+        {% for repo in repos limit:12 %}
 
           {% if repo.fork != true
-              and repo.name != 'george'
-              and repo.name != 'instagrito'
+              and repo.name != 'static-boilerplate'
+              and repo.name != 'vinny-g-new'
+              and repo.name != 'uniritter-pattern-library'
+              and repo.name != 'jumpstart-rails-blog'
           %}
             <li class="repo">
-              <!-- {{ repo.language }} -->
               <a class="repo__link" href="{{ repo.html_url }}">{{ repo.name }}</a>
 
               <p class="repo__description">
@@ -91,16 +92,15 @@ layout: home
         <h2>About me</h2>
         <p>I craft responsive websites and web applications
         with special attention to performance, semantics and accessibility.</p>
-        <p>As a designer, I can also deliver interface wireframes, prototypes, layouts
-        and brand identity assets.</p>
 
-        <p>I value
+        <p>For that, I use technologies such as <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading StyleSheets">CSS</abbr> and <strong>JavaScript</strong>.</p>
+
+        <p>I also value
             content-focused aesthetics,
             usability,
             fast response times
             and purposeful tooling.</p>
 
-        <p>Above all, I believe that delightful experiences to the target user
-          make all the difference.</p>
+        <p><a href="about">Read more about me.</a></p>
     </section>
 </main>

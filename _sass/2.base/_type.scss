@@ -1,5 +1,6 @@
 h1, .o-h1,
-h2, .o-h2 {
+h2, .o-h2,
+h3, .o-h3 {
   line-height: 1;
   margin: 0;
 }
@@ -25,6 +26,14 @@ h2, .o-h2 {
   }
 }
 
+h3, .o-h3 {
+  font-size: 2em;
+
+  @media (min-width: 37.5em) {
+    font-size: 3em;
+  }
+}
+
 p {
   line-height: 1.5;
 }
@@ -33,4 +42,9 @@ p {
   p, ul{
     font-size: 1.25em;
   }
+}
+
+abbr {
+  font-weight: bold;
+  border-bottom: 1px dotted;
 }
