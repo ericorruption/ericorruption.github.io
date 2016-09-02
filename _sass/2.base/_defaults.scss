@@ -40,18 +40,8 @@ html,
 button,
 input,
 textarea {
-  font-family: $font-family-fallback;
+  font-family: $font-family-primary;
 }
-
-.wf-active {
-  &,
-  button,
-  input,
-  textarea {
-    font-family: $font-family-primary;
-  }
-}
-
 
 html {
   background: $brand-primary;

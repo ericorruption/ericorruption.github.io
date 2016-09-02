@@ -1,7 +1,12 @@
 .repo-list {
   list-style: none;
-  padding: 0 4%;
-  margin: 2.5em auto;
+  padding: 0;
+  margin: 2.5em 0;
+
+  @media (min-width: 48em) {
+    margin-left: -1%;
+    margin-right: -1%;
+  }
 }
 
 .repo {
