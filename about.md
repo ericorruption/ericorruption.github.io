@@ -3,14 +3,14 @@ title: About me
 layout: post
 ---
 
-I'm southern Brazil born and raised. I work on the web since 2010,
+I was born and raised in southern Brazil. I work on the web since 2010,
 and I always strive to improve myself - keeping up with technology advancements, testing out new libraries, you name it.
 
-I have a bit of experience with back-end technologies but I feel I'm better at the front-end.<br/>
+I have some experience with back-end technologies but I feel I'm better at the front-end.<br/>
 I can actually **see** what my code changed &mdash; and the reward of interacting with something you built is simply priceless.
 
-I always try to keep all possible aspects of an applications front-end in check: accessibility, performance, modularity, scalability and overall user experience. That also demands testing on several use case conditions &mdash; such as screen sizes, input devices, battery, internet connection.<br/>
-Because of that, I usually rely on a mobile-first, responsive approach, where we have an accessible, performant experience, and increment that based on a device's capabilities.
+I always try to keep all possible aspects of an applications front-end in check: accessibility, performance, modularity, scalability and overall user experience. This also demands testing on several use case conditions &mdash; such as screen sizes, input devices, battery, internet connection.<br/>
+Because of that, I usually rely on a mobile-first, responsive approach, in which we begin with an accessible, performant experience, and build on top of that taking into account each device's capabilities.
 
 My education is in graphic arts, but the browser has always felt like a great canvas to me as well.<br/>
 As a designer, I can deliver interface wireframes, prototypes, layouts and brand identity assets.
