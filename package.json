@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/ericorruption/ericorruption.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.11.1"
+    "browser-sync": "^2.23.3"
   }
 }
