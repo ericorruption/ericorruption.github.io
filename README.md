@@ -1,6 +1,4 @@
-# Ericorruption's personal website [![Build Status](https://travis-ci.org/ericorruption/ericorruption.github.io.svg?branch=master)](https://travis-ci.org/ericorruption/ericorruption.github.io)
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/ericorruption/ericorruption.github.io.svg)](https://greenkeeper.io/)
+# Ericorruption's personal website [![Build Status](https://travis-ci.org/ericorruption/ericorruption.github.io.svg?branch=master)](https://travis-ci.org/ericorruption/ericorruption.github.io) [![Greenkeeper badge](https://badges.greenkeeper.io/ericorruption/ericorruption.github.io.svg)](https://greenkeeper.io/)
 
 This project uses [jekyll](http://jekyllrb.com) and is hosted on github. If you want to use it, fork this repo and:
 

@@ -9,7 +9,7 @@ title: Eric Quanz - front-end focused web developer
 email: eric.quanz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Front-end focused web developer with a design background
-  based in Porto Alegre, Brazil. Eric Quanz has over 5 years experience
+  based in Hamburg, Germany. Eric Quanz has over 8 years experience
   in responsive website development and design.
 url: "https://ericquanz.com" # the base hostname & protocol for your site
 twitter_username: ericorruption
@@ -18,7 +18,7 @@ github_username:  ericorruption
 # Build settings
 sass:
   style: :compressed
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
 

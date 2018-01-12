@@ -22,11 +22,15 @@ Above all, I believe that delightful experiences to the target user make all the
 
 I have vast experience on multi-disciplinary teams and solo work.
 
-### Toptal (07/2016 ~ Now )
+### HAPPYCAR (01/2017 ~ Now)
 
-Front-end contract work for startups.
+Part-time software developer, part-time UX/UI designer. Full-time problem solver.
 
-### DZ Estúdio (03/2011 ~ Now)
+### Toptal (07/2016 ~ Now)
+
+Front-end contract work from time to time.
+
+### DZ Estúdio (03/2011 ~ 10/2016)
 
 * Awarded best-performing employee of 2013.
 * Worked on several web projects using HTML5, CSS3, and JavaScript.
@@ -51,20 +55,16 @@ Instituto Federal do Rio Grande do Sul - Porto Alegre, RS, Brazil
 
 Things I'm proficient at:
 
-* Front-end stack (HTML, CSS, JavaScript, ES6)
-* Front-end build tools (Gulp, Grunt)
-* Transpilers and preprocessors (Sass, Less, Babel)
+* Node.js
+* React (&amp; libraries that frequently go together)
+* Front-end stack (HTML, CSS, JavaScript, ES6+)
+* Front-end build tools (Gulp, Grunt, NPM)
+* Transpilers and preprocessors (Sass, Postcss, Babel)
 * Graphics software (Sketch, Adobe Photoshop &amp; Illustrator)
 * Git
 
 Things I have worked with:
-
+* AWS (Lambda / Cloudfront / S3)
 * Ruby and Rails
 * PHP and Laravel
 * Query languages: MySQL and Postgres
-
-Things I experimented with:
-
-* Node.js
-* Angular v1
-* React
