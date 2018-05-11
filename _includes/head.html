@@ -9,7 +9,12 @@
 
     <meta property="og:image" content="{{ '/img/facebook.png' | prepend: site.url }}" />
 
-    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  {% capture styles %}
+    {% include styles.scss %}
+  {% endcapture %}
+  <style>
+    {{ styles | scssify }}
+  </style>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
