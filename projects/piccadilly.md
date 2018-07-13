@@ -1,28 +1,28 @@
 ---
 title: Piccaddilly
-website: http://piccadilly.com.br
 ---
 
 Piccadilly is one of the 5 biggest shoe brands in Brazil. This is their multi-language corporate website and blog.
 The website is also used to spread the word about new product collections.
 
 ## Role
+
 Me and one other front-dev worked on the views and interactions while another developer worked on the back-end, using Laravel as a foundation for the project.
 
 I was also responsible for reaching a common ground regarding the differences between desktop and mobile views, coming up with a mix of both on screens that didn't fall in either of those categories. This is what led the project to be fully, fluidly responsive.
 
 ## Technologies involved
 
-* Gulp
-* HTML
-* Sass
-* Javascript (jQuery)
-* Browserify
-* Browsersync
-* PHP
-* Laravel
-* Wordpress
-* Google Maps API
+- Gulp
+- HTML
+- Sass
+- Javascript (jQuery)
+- Browserify
+- Browsersync
+- PHP
+- Laravel
+- Wordpress
+- Google Maps API
 
 ## Key takeaways
 

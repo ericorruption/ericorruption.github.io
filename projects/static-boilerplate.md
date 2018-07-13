@@ -13,12 +13,12 @@ I'm the sole maintainer of the project (PRs welcome!), and have been since 2014,
 
 ## Technologies involved
 
-* Gulp
-* HTML
-* Sass
-* Javascript (ES6)
+- HTML
+- Sass
+- Javascript (ES6)
 
 ## Key takeaways
 
-Having to decide tooling on every project is pointless. It's far more productive to have something you and your team
- can trust on that is full of good practices, scales and extends just fine.
+Having to decide tooling on every project is pointless. It's far more productive
+to have something you and your team can trust on that is full of good practices,
+scales and extends just fine.

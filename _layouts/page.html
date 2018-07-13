@@ -10,9 +10,11 @@ layout: default
   <article class="post-content">
     {{ content }}
 
+    {%- if page.website -%}
     <div class="u-a-c u-p-t-d">
       <a href="{{ page.website }}" class="o-btn o-btn--lg">Visit website</a>
     </div>
+    {%- endif -%}
 
   </article>
 
