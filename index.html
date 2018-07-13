@@ -3,106 +3,109 @@ layout: home
 ---
 
 <main>
-    <section class="o-section o-content-block">
-        <img class="c-avatar" src="/img/avatar.jpg" alt="">
+  <section class="o-section o-content-block">
+    <img class="c-avatar" src="/img/avatar.jpg" alt="">
 
-        <h1 class="o-h1--index">Eric Quanz</h1>
+    <h1 class="o-h1--index">Eric Quanz</h1>
     <p class="o-headline">Front-end focused developer</p>
 
     <p class="u-c">Hi! I'm a front-end focused developer with over
       {{ site.time | date: '%Y' | minus: 2010 }} years experience and
       a background in design living in Hamburg, Germany.</p>
-    </section>
+  </section>
 
-    <section class="o-section">
-      <h2 class="u-sr">Projects</h2>
-      <h3 class="o-h2 o-content-block">Project Highlights</h3>
-      <ul class="o-row work-list">
-          <li class="work-list__item o-col">
-              <a href="projects/velocitygrowth"
-                  class="work-list__link work-list__link--velocitygrowth">
-                  <span class="work-list__text">VelocityGrowth / 2016</span>
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="projects/china-brasil-futebol"
-                  class="work-list__link work-list__link--china-brasil-futebol">
-                  <span class="work-list__text">China Brasil Futebol / 2016</span>
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="projects/piccadilly"
-                  class="work-list__link work-list__link--piccadilly">
-                  <span class="work-list__text">Piccadilly / 2016</span>
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="http://www.guaibacar.com.br"
-                  class="work-list__link work-list__link--guaibacar">
-                  <span class="work-list__text">Guaibacar / 2015</span>
+  <section class="o-section">
+    <h2 class="u-sr">Projects</h2>
+    <h3 class="o-h2 o-content-block">Project Highlights</h3>
+    <ul class="o-row work-list">
+      <li class="work-list__item o-col">
+        <a
+          href="projects/happycar"
+          class="work-list__link work-list__link--happycar"
+        >
+          <span class="work-list__text">HAPPYCAR / 2017 ~ now</span>
+        </a>
+      </li>
+      <li class="work-list__item o-col">
+        <a
+          href="projects/velocitygrowth"
+          class="work-list__link work-list__link--velocitygrowth"
+        >
+          <span class="work-list__text">VelocityGrowth / 2016</span>
+        </a>
+      </li>
+      <li class="work-list__item o-col">
+        <a
+          href="projects/china-brasil-futebol"
+          class="work-list__link work-list__link--china-brasil-futebol"
+        >
+          <span class="work-list__text">China Brasil Futebol / 2016</span>
+        </a>
+      </li>
+      <li class="work-list__item o-col">
+        <a
+          href="projects/piccadilly"
+          class="work-list__link work-list__link--piccadilly"
+        >
+          <span class="work-list__text">Piccadilly / 2016</span>
+        </a>
+      </li>
+      <li class="work-list__item o-col">
+        <a
+          href="projects/uniritter-pattern-library"
+          class="work-list__link work-list__link--uniritter"
+        >
+          <span class="work-list__text">Uniritter Pattern Library / 2015</span>
+        </a>
+      </li>
+      <li class="work-list__item o-col">
+        <a
+          href="projects/static-boilerplate"
+          class="work-list__link work-list__link--static-boilerplate"
+        >
+          <span class="work-list__text">Static Boilerplate / 2014 ~ Now</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 
-                  <span class="work-list__text work-list__text--soon">Project page coming soon</span>
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="projects/uniritter-pattern-library"
-                  class="work-list__link work-list__link--uniritter">
-                  <span class="work-list__text">Uniritter Pattern Library / 2015</span>
-              </a>
-          </li>
-          <li class="work-list__item o-col">
-              <a href="projects/static-boilerplate"
-                  class="work-list__link work-list__link--static-boilerplate">
-                  <span class="work-list__text">Static Boilerplate / 2014 ~ Now</span>
-              </a>
-          </li>
-      </ul>
-    </section>
+  <section class="o-section o-content-block o-content-block--large">
+    <h3 class="o-h2">Other projects</h3>
+    <p>Recently updated Github projects.</p>
 
-    <section class="o-section o-content-block o-content-block--large">
-      <h3 class="o-h2">Other projects</h3>
-      <p>Recently updated Github projects.</p>
+    <ul class="repo-list">
+      {%- assign repos = site.github.public_repositories | sort: 'pushed_at' | reverse -%}
+      {%- for repo in repos limit:12 -%}
+      {%- if repo.name != 'static-boilerplate' -%}
+      <li class="repo">
+        <a class="repo__link" href="{{ repo.html_url }}">{{ repo.name }}</a>
 
-      <ul class="repo-list">
-        {% assign repos = site.github.public_repositories | sort: 'pushed_at' | reverse %}
-        {% for repo in repos limit:12 %}
+        <p class="repo__description">
+          {{ repo.description }}
+        </p>
 
-          {% if repo.fork != true
-              and repo.name != 'static-boilerplate'
-              and repo.name != 'vinny-g-new'
-              and repo.name != 'uniritter-pattern-library'
-              and repo.name != 'jumpstart-rails-blog'
-          %}
-            <li class="repo">
-              <a class="repo__link" href="{{ repo.html_url }}">{{ repo.name }}</a>
+        {%- if repo.homepage and repo.homepage != '' -%}
+        <a class="repo__site" href="{{ repo.homepage }}">Website</a>
+        {%- endif -%}
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </section>
 
-              <p class="repo__description">
-                {{ repo.description }}
-              </p>
+  <section class="o-section o-content-block">
+    <h2>About me</h2>
+    <p>I craft responsive websites and web applications with special attention to performance, semantics and accessibility.</p>
 
-              {% if repo.homepage and repo.homepage != '' %}
-                <a class="repo__site" href="{{ repo.homepage }}">Website</a>
-              {% endif %}
-            </li>
-          {% endif %}
+    <p>For that, I use technologies such as
+      <abbr title="HyperText Markup Language">HTML</abbr>,
+      <abbr title="Cascading StyleSheets">CSS</abbr> and
+      <strong>JavaScript</strong>.</p>
 
-        {% endfor %}
-      </ul>
-    </section>
+    <p>I also value content-focused aesthetics, usability, fast response times and purposeful tooling.</p>
 
-    <section class="o-section o-content-block">
-        <h2>About me</h2>
-        <p>I craft responsive websites and web applications
-        with special attention to performance, semantics and accessibility.</p>
-
-        <p>For that, I use technologies such as <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading StyleSheets">CSS</abbr> and <strong>JavaScript</strong>.</p>
-
-        <p>I also value
-            content-focused aesthetics,
-            usability,
-            fast response times
-            and purposeful tooling.</p>
-
-        <p><a href="about">Read more about me.</a></p>
-    </section>
+    <p>
+      <a href="about">Read more about me.</a>
+    </p>
+  </section>
 </main>
