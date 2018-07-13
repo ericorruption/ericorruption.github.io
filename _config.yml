@@ -5,10 +5,10 @@ exclude:
   - vendor
 
 # Site settings
-title: Eric Quanz - front-end focused web developer
+title: Eric Quanz - front-end focused developer
 email: eric.quanz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Front-end focused web developer with a design background
+  Front-end focused developer with a design background
   based in Hamburg, Germany. Eric Quanz has over 8 years experience
   in responsive website development and design.
 url: "https://ericquanz.com" # the base hostname & protocol for your site
