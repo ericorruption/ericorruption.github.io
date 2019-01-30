@@ -1,12 +1,17 @@
-.social-media{
-  background: $text-color;
+.social-media {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 15%,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0) 85%
+  );
   margin: 0;
   list-style: none;
   text-align: center;
   padding: 2em 0 1.75em;
 }
 
-.social-media__item{
+.social-media__item {
   display: inline-block;
   vertical-align: middle;
   width: 19%;
@@ -26,7 +31,7 @@
 }
 
 @media (min-width: 37.5em) {
-  .social-media__item{
+  .social-media__item {
     width: 40px;
     margin: 0 2em;
   }
@@ -36,30 +41,29 @@
   }
 }
 
-
 @keyframes rainbow {
   0% {
     fill: white;
   }
 
   10% {
-    fill: #FF4136;
+    fill: #ff4136;
   }
 
   20% {
-    fill: #FF851B;
+    fill: #ff851b;
   }
 
   40% {
-    fill: #FFDC00;
+    fill: #ffdc00;
   }
 
   60% {
-    fill: #2ECC40;
+    fill: #2ecc40;
   }
 
   80% {
-    fill: #0074D9;
+    fill: #0074d9;
   }
 
   100% {

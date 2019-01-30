@@ -1,25 +1,19 @@
 @charset "UTF-8";
 
-@import
-  '../_sass/1.config/variables',
+@import "../_sass/1.config/variables";
 
-  '../_sass/2.base/defaults',
-  '../_sass/2.base/scaffold',
-  '../_sass/2.base/type',
-  '../_sass/2.base/button',
-  '../_sass/2.base/form',
-  '../_sass/2.base/grid',
+@import "../_sass/2.base/defaults";
+@import "../_sass/2.base/type";
+@import "../_sass/2.base/button";
 
-  '../_sass/3.components/header',
-  '../_sass/3.components/footer',
-  '../_sass/3.components/work-list',
-  '../_sass/3.components/social-media',
-  '../_sass/3.components/call-to-action',
-  '../_sass/3.components/contact-form',
-  '../_sass/3.components/avatar',
-  '../_sass/3.components/repo',
+@import "../_sass/3.components/header";
+@import "../_sass/3.components/footer";
+@import "../_sass/3.components/work-list";
+@import "../_sass/3.components/social-media";
+@import "../_sass/3.components/avatar";
+@import "../_sass/3.components/repo";
 
-  '../_sass/3.components/index',
-  '../_sass/3.components/post',
+@import "../_sass/4.pages/index";
+@import "../_sass/4.pages/post";
 
-  '../_sass/4.trumps/utilities';
+@import "../_sass/5.trumps/utilities";

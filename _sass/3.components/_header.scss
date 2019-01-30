@@ -1,7 +1,7 @@
 .main-header {
-  background: $brand-primary;
   margin-bottom: 3.5em;
-  padding: 2em 5%;
+  position: sticky;
+  top: 0;
 
   @media (min-width: 37.5em) {
     margin-bottom: 8em;
@@ -13,8 +13,13 @@
   }
 }
 
-.symbol {
-  max-width: 80px;
+.main-header__content {
   display: inline-block;
-  vertical-align: middle;
+  padding: 1em 4em 4em 0.5em;
+
+  background: radial-gradient(
+    circle at left top,
+    $black 40%,
+    rgba(47, 47, 47, 0) 70%
+  );
 }

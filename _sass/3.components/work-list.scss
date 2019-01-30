@@ -2,50 +2,77 @@
   list-style: none;
   padding: 0;
   margin: 1em 0 4em;
-  overflow: hidden;
+  max-width: 80em;
+  display: grid;
+  grid-gap: 1em;
+  gap: 1em;
+
+  @media (min-width: 64em) {
+    margin: 1em auto 6em;
+  }
+
+  @media (min-width: 30em) {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  @media (min-width: 70em) {
+    grid-template-columns: repeat(3, 33%);
+  }
 }
 
-.work-list__item{
+.work-list__item {
   position: relative;
-  height: 0;
   padding-bottom: 60%;
+  border-radius: 5px;
+  box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.2);
 }
 
-.work-list__link{
+.work-list__link {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   display: block;
-  color: #fff;
+  color: $text-color;
   text-decoration: none;
 
-  &--velocitygrowth {
-    background-color: #9bb839;
+  &:hover,
+  &:focus {
+    color: $text-color;
   }
 
-  &--china-brasil-futebol {
-    background-color: #ffdc00;
-    background-image: linear-gradient(45deg, #ffdc00, #d6000f);
+  @media (min-width: 64em) {
+    float: none;
+    transition: all 0.15s ease-out;
+    overflow: hidden;
   }
+}
 
-  &--piccadilly {
-    background-color: #f68787;
-  }
+.work-list__link--velocitygrowth {
+  background-color: #9bb839;
+}
 
-  &--happycar {
-    background-color: #fd6e3d;
-    background-image: linear-gradient(#007dbe, #0067b3);
-  }
+.work-list__link--china-brasil-futebol {
+  background-color: #ffdc00;
+  background-image: linear-gradient(45deg, #ffdc00, #d6000f);
+}
 
-  &--uniritter{
-    background-color: #931B1D;
-  }
+.work-list__link--piccadilly {
+  background-color: #f68787;
+}
 
-  &--static-boilerplate {
-    background-color: $brand-primary;
-  }
+.work-list__link--happycar {
+  background-color: #fd6e3d;
+  background-image: linear-gradient(#007dbe, #0067b3);
+}
+
+.work-list__link--uniritter {
+  background-color: #931b1d;
+}
+
+.work-list__link--static-boilerplate {
+  background-color: $brand-primary;
 }
 
 .work-list__text {
@@ -53,39 +80,4 @@
   bottom: 10%;
   left: 7.5%;
   right: 7.5%;
-}
-
-.work-list__text--soon {
-  bottom: auto;
-  top: 10%;
-  text-align: right;
-  opacity: .5;
-}
-
-@media (min-width: 26em) {
-  .work-list__item {
-    float: left;
-    width: 50%;
-    padding-bottom: 30%;
-  }
-}
-
-@media (min-width: 48em) {
-  .work-list__item {
-    width: 33.33%;
-    padding-bottom: 20%;
-  }
-}
-
-@media (min-width: 64em) {
-  .work-list {
-    margin: 1em auto 6em;
-    overflow: auto;
-  }
-
-  .work-list__link {
-    float: none;
-    transition: all .15s ease-out;
-    overflow: hidden;
-  }
 }
