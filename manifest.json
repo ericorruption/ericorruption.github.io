@@ -1,0 +1,21 @@
+{
+  "name": "Eric Quanz - Portfolio",
+  "short_name": "Eric Quanz",
+  "description": "",
+  "theme_color": "#7746e8",
+  "background_color": "#7746e8",
+  "start_url": "index.html?utm_source=homescreen",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/icon/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
