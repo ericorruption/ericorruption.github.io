@@ -1,4 +1,4 @@
-# Ericorruption's personal website [![Build Status](https://travis-ci.com/ericorruption/ericorruption.github.io.svg?branch=master)](https://travis-ci.com/ericorruption/ericorruption.github.io)
+# Ericorruption's personal website ![Jekyll site CI](https://github.com/ericorruption/ericorruption.github.io/workflows/Jekyll%20site%20CI/badge.svg)
 
 This project uses [jekyll](http://jekyllrb.com) and is hosted on github. If you want to use it, fork this repo and:
 
