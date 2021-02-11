@@ -3,8 +3,7 @@ title: About me
 layout: post
 ---
 
-I was born and raised in southern Brazil. I work on the web since 2010,
-and I always strive to improve myself - keeping up with technology advancements, testing out new libraries, you name it.
+I was born and raised in southern Brazil. I always strive to improve myself - keeping up with technology advancements, testing out new libraries, attending conferences, you name it.
 
 I have some experience with back-end technologies but I feel I'm better at the front-end.<br/>
 I can actually **see** what my code changed &mdash; and the reward of seeing people interact with something you built is simply priceless.
@@ -13,7 +12,6 @@ I always try to keep all possible aspects of an applications front-end in check:
 Because of that, I usually rely on a mobile-first, responsive approach, in which we begin with an accessible, performant experience, and build on top of that taking into account each device's capabilities.
 
 My education is in graphic arts, but the browser has always felt like a great canvas to me as well.<br/>
-As a designer, I can deliver interface wireframes, prototypes, layouts and brand identity assets.
 
 Above all, I believe that delightful experiences to the target user make all the difference.
 
@@ -21,7 +19,11 @@ Above all, I believe that delightful experiences to the target user make all the
 
 I have vast experience on multi-disciplinary teams and solo work.
 
-### HAPPYCAR (01/2017 ~ Now)
+### claimsforce (03/2019 ~ Now)
+
+Improving and growing an enterprise web app for the insurance sector. Dabbling on mobile app development with Flutter here and there.
+
+### HAPPYCAR (01/2017 ~ 02/2019)
 
 Part-time software developer, part-time UX/UI designer. Full-time problem solver.
 
@@ -53,16 +55,22 @@ Instituto Federal do Rio Grande do Sul - Porto Alegre, RS, Brazil
 Things I'm proficient at:
 
 - Node.js
+- TypeScript
 - React (&amp; libraries that frequently go together)
 - Front-end stack (HTML, CSS, JavaScript, ES6+)
 - Front-end build tools (NPM, Webpack)
 - Transpilers and preprocessors (Sass, Postcss, Babel)
-- Graphics software (Sketch, Adobe Photoshop &amp; Illustrator)
+- Graphics software (Sketch, Adobe Photoshop &amp; Illustrator, Figma)
 - Git
 
 Things I have worked with:
 
-- AWS (Lambda / Cloudfront / S3 / Cloudformation / API Gateway / Route 53)
+- Flutter &amp; Dart
+- AWS (Lambda / Cloudfront / S3 / Cloudformation / API Gateway / Route 53 / Codepipeline)
 - Ruby and Rails
 - PHP and Laravel
 - Query languages: MySQL and Postgres
+
+## Outside of work
+
+I enjoy listening to modern death metal - sometimes playing too, biking around the city, going to the gym and doing the occasional scale modeling.

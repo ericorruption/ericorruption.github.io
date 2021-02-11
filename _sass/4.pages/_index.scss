@@ -20,6 +20,10 @@
   padding: 0 5%;
 }
 
+.c-hero {
+  padding: 0 5%;
+}
+
 .o-h1--index {
   margin-bottom: 0;
 }
@@ -28,7 +32,12 @@
   margin: 0;
 }
 
-@media (min-width: 37.5em) {
+@media (min-width: 56em) {
+  .c-hero {
+    display: flex;
+    align-items: center;
+  }
+
   .o-headline {
     font-size: 1.75em;
   }
