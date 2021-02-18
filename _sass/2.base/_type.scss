@@ -1,11 +1,34 @@
-h1, .o-h1,
-h2, .o-h2,
-h3, .o-h3 {
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("../../fonts/Atkinson-Hyperlegible-Regular-102a.woff2")
+      format("woff2"),
+    url("../../fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("../../fonts/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2"),
+    url("../../fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff");
+}
+
+h1,
+.o-h1,
+h2,
+.o-h2,
+h3,
+.o-h3 {
   line-height: 1;
   margin: 0;
 }
 
-h1, .o-h1 {
+h1,
+.o-h1 {
   font-size: 4em;
   line-height: 1.1;
 
@@ -14,19 +37,17 @@ h1, .o-h1 {
   }
 }
 
-h2, .o-h2 {
+h2,
+.o-h2 {
   font-size: 3em;
-
-  &:before {
-    content: '// '
-  }
 
   @media (min-width: 37.5em) {
     font-size: 4em;
   }
 }
 
-h3, .o-h3 {
+h3,
+.o-h3 {
   font-size: 2em;
 
   @media (min-width: 37.5em) {
@@ -39,7 +60,8 @@ p {
 }
 
 @media (min-width: 37.5em) {
-  p, ul{
+  p,
+  ul {
     font-size: 1.25em;
   }
 }
