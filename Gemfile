@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'github-pages', '>= 207'
+  gem 'github-pages', '>= 214'
   gem 'jekyll-github-metadata', '>= 2.13.0'
 end
 
