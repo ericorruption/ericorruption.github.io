@@ -12,7 +12,7 @@ At HAPPYCAR I wore many hats and worked on many different parts of their product
 - I worked on improving the loading performance of key marketing pages - by reducing the amount of requests, file sizes, optimizing images, serving them as static files, simplifying and refactoring code.
 - Redesigned the marketing pages to have a modern look - especially taking us ahead of the competition.
 - Created together with the whole team a [brand guide](https://brand.happycar.de/) - in order to enforce correct usage of the brand.
-- Published a [UI pattern library](https://happycar.github.io/happycar-ui/) - to create consistency across the different ongoing projects.
+- Published a **UI pattern library** - to create consistency across the different ongoing projects.
 - We did lots of A/B testing in features before they rolled out - in order to confirm they were valuable for our customers AND for the business.
 
 Among other things.
