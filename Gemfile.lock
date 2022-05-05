@@ -288,7 +288,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (>= 219)
+  github-pages (>= 224)
   html-proofer (>= 3.19.2)
   jekyll-github-metadata (>= 2.13.0)
 
