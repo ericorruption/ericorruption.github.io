@@ -1,4 +1,4 @@
-# Ericorruption's personal website
+# Ericorruption's personal website [![Build](https://github.com/ericorruption/ericorruption.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/ericorruption/ericorruption.github.io/actions/workflows/build.yml)
 
 This project was bootstrapped with [astro](https://astro.build/).
 
