@@ -1,17 +1,79 @@
 ---
 layout: "../layouts/BlogPost.astro"
-title: "About Me"
+title: "About me"
 description: "Lorem ipsum dolor sit amet"
-updatedDate: "August 08 2022"
+updatedDate: "September 07 2022"
 heroImage: "/placeholder-about.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+I was born and raised in southern Brazil. I always strive to improve myself - keeping up with technology advancements, testing out new libraries, attending conferences, you name it.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+I have some experience with back-end technologies but I feel I'm better at the front-end.<br/>
+I can actually **see** what my code changed &mdash; and the reward of seeing people interact with something you built is simply priceless.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+I always try to keep all possible aspects of an applications front-end in check: accessibility, performance, modularity, scalability and overall user experience. This also demands testing on several use case conditions &mdash; such as screen sizes, input devices, battery, internet connection.<br/>
+Because of that, I usually rely on a mobile-first, responsive approach, in which we begin with an accessible, performant experience, and build on top of that taking into account each device's capabilities.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+My education is in graphic arts, but the browser has always felt like a great canvas to me as well.<br/>
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Above all, I believe that delightful experiences to the target user make all the difference.
+
+## Work experience
+
+I have vast experience on multi-disciplinary teams and solo work.
+
+### claimsforce (03/2019 ~ Now)
+
+Improving and growing an enterprise web app for the insurance sector. Dabbling on mobile app development with Flutter here and there.
+
+### HAPPYCAR (01/2017 ~ 02/2019)
+
+Part-time software developer, part-time UX/UI designer. Full-time problem solver.
+
+### Toptal (07/2016 ~ 12/2016)
+
+Front-end contract work.
+
+### DZ Estúdio (03/2011 ~ 10/2016)
+
+- Awarded best-performing employee of 2013.
+- Worked on several web projects using HTML5, CSS3, and JavaScript.
+- Promoted and implemented the use of build tools on the front-end of projects.
+- Promoted, taught, and implemented responsive design techniques on projects.
+
+### Freelancing
+
+Design and front-end contract work for several local clients across the years.
+
+## Education
+
+**Bachelor's Degree in Graphic Design** _(2009 - 2015)_<br/>
+Centro Universitário Ritter dos Reis - Porto Alegre, RS, Brazil
+
+**Technical Degree in Information Systems** _(2008 - 2009)_<br/>
+Instituto Federal do Rio Grande do Sul - Porto Alegre, RS, Brazil
+
+## Technologies and programming languages
+
+Things I'm proficient at:
+
+- Node.js
+- TypeScript
+- React (&amp; libraries that frequently go together)
+- Front-end stack (HTML, CSS, JavaScript, ES6+)
+- Front-end build tools (NPM, Webpack)
+- Transpilers and preprocessors (Sass, Postcss, Babel)
+- Graphics software (Sketch, Adobe Photoshop &amp; Illustrator, Figma)
+- Git
+
+Things I have worked with:
+
+- Flutter &amp; Dart
+- AWS (Lambda / Cloudfront / S3 / Cloudformation / API Gateway / Route 53 / Codepipeline)
+- Ruby and Rails
+- PHP and Laravel
+- Query languages: MySQL and Postgres
+
+## Outside of work
+
+I enjoy listening to modern death metal - sometimes playing too, biking around the city, going to the gym and doing the occasional scale modeling.
