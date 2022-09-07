@@ -32,7 +32,7 @@ jobs:
 
   deploy-stg:
     runs-on: ubuntu-22.04
-    environment: stage
+    environment: staging
     needs: build-stg
     steps:
       - uses: actions/deploy-pages@v1
