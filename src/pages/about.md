@@ -3,8 +3,10 @@ layout: "../layouts/BlogPost.astro"
 title: "About me"
 description: "Lorem ipsum dolor sit amet"
 updatedDate: "September 07 2022"
-heroImage: "/placeholder-about.jpg"
+# heroImage: "/placeholder-about.jpg"
 ---
+
+<!-- Talk about myspace? -->
 
 I was born and raised in southern Brazil. I always strive to improve myself - keeping up with technology advancements, testing out new libraries, attending conferences, you name it.
 
@@ -21,6 +23,8 @@ Above all, I believe that delightful experiences to the target user make all the
 ## Work experience
 
 I have vast experience on multi-disciplinary teams and solo work.
+
+<!-- ### Jimdo () -->
 
 ### claimsforce (03/2019 ~ Now)
 
@@ -76,4 +80,4 @@ Things I have worked with:
 
 ## Outside of work
 
-I enjoy listening to modern death metal - sometimes playing too, biking around the city, going to the gym and doing the occasional scale modeling.
+I enjoy listening to modern death metal - sometimes playing it too, going to the gym and doing the occasional scale modeling.

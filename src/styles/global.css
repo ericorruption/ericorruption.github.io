@@ -1,67 +1,82 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-	font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+
+/* html {
+  color-scheme: light;
+
+  --page-color: white;
+  --ink-color: black;
+  --highlight-color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+    --page-color: black;
+    --ink-color: white;
+    --highlight-color: pink;
+  }
+}
+
+html {
+  accent-color: var(--highlight-color);
+}
+
+body {
+  background-color: var(--page-color);
+  color: var(--ink-color);
+} */
+
+
+html {
+	/* font-family: Verdana, sans-serif; */
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	margin: auto;
-	padding: 20px;
+	padding: 1.25em;
 	max-width: 65ch;
-	text-align: left;
-	background-color: #fff;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	line-height: 1.5;
-	color: #444;
+  font-size: 1.125rem;
+  /* TODO validate this font size works ok on different screen sizes */
+	line-height: 1.4;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-b {
-	color: #222;
+
+/* If I decide to do sticky footer */
+/* body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+} */
+
+/* From twitter bootstrap */
+.visuallyhidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
-a {
-	color: #3273dc;
-}
-nav a {
-	margin-right: 10px;
-}
-textarea {
-	width: 100%;
-	font-size: 16px;
-}
-input {
-	font-size: 16px;
-}
-content {
-	line-height: 1.6;
-}
-table {
-	width: 100%;
-}
-img {
-	max-width: 100%;
-	height: auto;
-}
-code {
-	padding: 2px 5px;
-	background-color: #f2f2f2;
-}
-pre {
-	padding: 1rem;
-}
-pre > code {
-	all: unset;
-}
-blockquote {
-	border: 1px solid #999;
-	color: #222;
-	padding: 2px 0px 2px 20px;
-	margin: 0px;
-	font-style: italic;
-}
+
+/* h2 {
+    margin: 0.5em 0;
+  } */
