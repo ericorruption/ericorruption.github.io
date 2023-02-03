@@ -1,21 +1,19 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
 :root {
   color-scheme: light dark;
+  --page-color: #fff6ef;
+  --ink-color: #252d20;
+  --highlight-color: #038157;
+  --spacing: 1.25em;
 }
 
 html {
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-body {
-  margin: 0;
-}
-
 
 /* html {
   color-scheme: light;
@@ -36,19 +34,21 @@ body {
 
 html {
   accent-color: var(--highlight-color);
-}
-
-body {
-  background-color: var(--page-color);
-  color: var(--ink-color);
 } */
 
+body {
+  margin: 0;
+
+  background-color: var(--page-color);
+  background-image: linear-gradient(to bottom, #fbf8f3, var(--page-color));
+  color: var(--ink-color);
+}
 
 html {
 	/* font-family: Verdana, sans-serif; */
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	margin: auto;
-	padding: 1.25em;
+	padding: var(--spacing);
 	max-width: 65ch;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -80,3 +80,13 @@ html {
 /* h2 {
     margin: 0.5em 0;
   } */
+
+  a {
+    color: var(--highlight-color);
+  }
+
+  h1 {
+    /* TODO consider normalize.css */
+    font-size: 2em;
+    margin-top: 0;
+  }
