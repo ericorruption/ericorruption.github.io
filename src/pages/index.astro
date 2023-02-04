@@ -78,7 +78,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
   aside {
     grid-area: aside;
-    background-color: #9efadb;
+    background-color: var(--highlight-color);
   }
 
   model-viewer {
@@ -88,7 +88,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
   @media (max-width: 47.99em) {
     :global(header) {
-      background-color: #9efadb;
       padding-left: var(--spacing);
       padding-right: var(--spacing);
       padding-top: var(--spacing);
@@ -97,10 +96,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
     :global(footer) {
       padding-left: var(--spacing);
       padding-right: var(--spacing);
-    }
-
-    :global(header a) {
-      color: var(--ink-color);
     }
 
     main {
@@ -122,6 +117,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
         "aside footer";
       grid-template-columns: 5fr 7fr;
       grid-template-rows: 1fr auto 1fr;
+    }
+
+    :global(header) {
+      background-color: transparent;
+    }
+
+    aside {
     }
   }
 
