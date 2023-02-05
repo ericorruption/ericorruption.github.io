@@ -1,7 +1,7 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
 :root {
   color-scheme: light dark;
-  --page-color: #fff;
+  --page-color: #fafaf9;
   --ink-color: #252d20;
   --highlight-color: #9efadb;
   --spacing: 1.25rem;
@@ -39,12 +39,13 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--page-color);
   color: var(--ink-color);
 }
 
 html {
-	/* font-family: Verdana, sans-serif; */
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* font-family: "Atkinson Hyperlegible", sans-serif; */
 	margin: auto;
 	/* padding: var(--spacing); */
 	max-width: 65ch;
@@ -92,9 +93,10 @@ a {
 h1 {
   /* TODO consider normalize.css */
   /* font-size: 2em; */
+  line-height: 1.1;
   font-size: 3rem;
   margin: 0 0 var(--spacing);
-  padding-top: var(--spacing);
+  padding: var(--spacing);
 }
 
 @media (max-width: 47.99em) {
@@ -103,7 +105,13 @@ h1 {
     background-color: var(--highlight-color);
     text-shadow: 0 0 1px #038157 , 1px 2px 0 #038157;
     color: #fff;
-    padding: var(--spacing);
+  }
+}
+
+@media (min-width: 48em) {
+  h1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -116,4 +124,10 @@ p {
 main {
   padding-left: var(--spacing);
   padding-right: var(--spacing);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #efefef;
+  margin: var(--spacing);
 }

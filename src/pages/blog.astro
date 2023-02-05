@@ -10,19 +10,31 @@ const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
 );
 ---
 
-<Layout title={setTitle("Blog")} description="TODO">
+<Layout title={setTitle("Blog")} description="Posts about technology">
   <style>
     ul {
       list-style-type: none;
       padding: unset;
     }
-    ul li {
-      /* display: flex; */
+
+    li {
+      display: flex;
+      margin-bottom: var(--spacing);
+      flex-direction: column-reverse;
     }
-    ul li time {
-      flex: 0 0 130px;
+
+    time {
       font-style: italic;
-      /* color: #888; */
+    }
+
+    @media (min-width: 48em) {
+      li {
+        flex-direction: row;
+      }
+
+      time {
+        flex: 0 0 130px;
+      }
     }
   </style>
 
