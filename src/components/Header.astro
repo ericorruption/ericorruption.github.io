@@ -1,7 +1,6 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
 // import NotThemeToggle from "./NotThemeToggle.astro";
-// import XRay from "./XRay.astro";
 ---
 
 <header>
@@ -18,19 +17,20 @@ import HeaderLink from "./HeaderLink.astro";
     <!-- Resume? -->
   </nav>
 
-  <!-- <XRay /> -->
   <!-- <NotThemeToggle /> -->
 </header>
 <style>
   header {
-    background-color: var(--highlight-color);
-    /* padding-bottom: 1.25em; */
     padding: var(--spacing);
-    grid-area: header;
-    align-self: flex-end;
   }
 
   a + a {
     margin-left: 1rem;
+  }
+
+  @media (max-width: 47.99em) {
+    header {
+      background-color: var(--highlight-color);
+    }
   }
 </style>

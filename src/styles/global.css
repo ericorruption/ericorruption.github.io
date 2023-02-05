@@ -6,10 +6,13 @@
   --highlight-color: #9efadb;
   --spacing: 1.25rem;
   --negative-spacing: -1.25rem;
+
+  --first-col-width: 40%;
 }
 
 html {
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 
 *, *:before, *:after {
@@ -32,28 +35,39 @@ html {
     --highlight-color: pink;
   }
 }
+ */
 
 html {
-  accent-color: var(--highlight-color);
-} */
-
-body {
-  margin: 0;
-  background-color: var(--page-color);
-  color: var(--ink-color);
-}
-
-html {
+  /* accent-color: var(--highlight-color); */
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /* font-family: "Atkinson Hyperlegible", sans-serif; */
-	margin: auto;
-	/* padding: var(--spacing); */
-	max-width: 65ch;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
+  font-size: 1.2rem;
   /* TODO validate this font size works ok on different screen sizes */
 	line-height: 1.4;
+
+  background-color: var(--highlight-color);
+  background-image: linear-gradient(to right, var(--highlight-color) 0%,
+  var(--highlight-color) var(--first-col-width),
+  var(--page-color) var(--first-col-width),
+  var(--page-color) 100%);
+}
+
+body {
+  background-color: var(--page-color);
+  color: var(--ink-color);
+
+  margin: 0;
+	max-width: 65ch;
+  min-height: 100vh;
+}
+
+@media (min-width: 48em) {
+  body {
+   margin-left: var(--first-col-width);
+  }
 }
 
 img {
