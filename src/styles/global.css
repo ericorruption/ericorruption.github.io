@@ -5,9 +5,17 @@
   --ink-color: #252d20;
   --highlight-color: #9efadb;
   --spacing: 1.25rem;
+  --spacing-small: 1.25rem;
   --negative-spacing: -1.25rem;
 
   --first-col-width: 40%;
+}
+
+@media (min-width: 48em) {
+  :root {
+    --spacing: 2.5rem;
+    --negative-spacing: -2.5rem;
+  }
 }
 
 html {
@@ -109,13 +117,13 @@ h1 {
   /* font-size: 2em; */
   line-height: 1.1;
   font-size: 3rem;
-  margin: 0 0 var(--spacing);
+  margin: 0 0 var(--spacing-small);
   padding: var(--spacing);
 }
 
 @media (max-width: 47.99em) {
   h1 {
-    margin: 0 var(--negative-spacing) var(--spacing);
+    margin: 0 var(--negative-spacing) var(--spacing-small);
     background-color: var(--highlight-color);
     text-shadow: 0 0 1px #038157 , 1px 2px 0 #038157;
     color: #fff;
@@ -126,13 +134,13 @@ h1 {
   h1 {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
   }
 }
 
 p {
   margin-top: 0;
 }
-
 
 /* TODO componentize? */
 main {
@@ -143,5 +151,5 @@ main {
 hr {
   border: none;
   border-top: 1px solid #efefef;
-  margin: var(--spacing);
+  margin: var(--spacing-small) var(--spacing);
 }
