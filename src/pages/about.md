@@ -1,38 +1,52 @@
 ---
 layout: "../layouts/BlogPost.astro"
 title: "About me"
-description: "Lorem ipsum dolor sit amet"
-updatedDate: "September 07 2022"
+description: "Where I came from, where I'm at, where I'm going"
+updatedDate: "February 05 2023"
 # heroImage: "/placeholder-about.jpg"
 ---
 
-<!-- Talk about myspace? -->
+I was born and raised in southern Brazil.
+My work life started roughly when Myspace became popular - if I recall correctly between 2007 and 2009. Myspace allowed users to customize their profiles and create all sorts of interesting web designs, what I believe to be one of the biggest reasons for its popularity. This, aligned with my interest in music, led me to work as web designer for musician friends and acquaintances.
 
-I was born and raised in southern Brazil. I always strive to improve myself - keeping up with technology advancements, testing out new libraries, attending conferences, you name it.
+I loved it. I liked the visual exploration needed to achieve a unique web design, and then having to figure out how to translate those designs into code, specifically for that platform. That involved a decent amount of hacking (table layouts, anyone? javascript hover states with image replacement?), which was challenging but ended up being formative to where I am today.
 
-I have some experience with back-end technologies but I feel I'm better at the front-end.<br/>
-I can actually **see** what my code changed &mdash; and the reward of seeing people interact with something you built is simply priceless.
+Fast forward a few years and I'm not as involved with web design, but I ended up discovering that front-end is what the code that I like to write the most is called. Code that delivers interactivity, content, and ultimately awesome experiences to customers.
 
-I always try to keep all possible aspects of an applications front-end in check: accessibility, performance, modularity, scalability and overall user experience. This also demands testing on several use case conditions &mdash; such as screen sizes, input devices, battery, internet connection.<br/>
-Because of that, I usually rely on a mobile-first, responsive approach, in which we begin with an accessible, performant experience, and build on top of that taking into account each device's capabilities.
+--
 
-My education is in graphic arts, but the browser has always felt like a great canvas to me as well.<br/>
+Nowadays I help businessess achieve results via technology - as little of it as possible. I'm pretty flexible with that statement as it always depends on context: how big the business is, how old it is, how large the team is, how much time do we have.
 
-Above all, I believe that delightful experiences to the target user make all the difference.
+I'm also flexible when it comes to technical preferences: I do like my front-end, but I don't shy away from work that involves infrastructure, back-ends, databases or CI/CD pipelines, and I'm not married to any one programming language or framework.
+
+Strong communication, empathy and speed are some of the things I try to focus on and make my specialties.
+
+Have a look around and get in touch with me by going to the links at the bottom of the page. Thanks for visiting and reading this far! 🙌
+
+<!-- In summary, I love "clicky clicky, typey typey" stuff. -->
 
 ## Work experience
 
-I have vast experience on multi-disciplinary teams and solo work.
+I have vast experience on multi-disciplinary product teams and solo work as a contractor.
 
-<!-- ### Jimdo () -->
+### Jimdo (04/2022 ~ Now)
 
-### claimsforce (03/2019 ~ Now)
+I'm part of the team that provides technical solutions and business improvements to the customer support team.
+
+### claimsforce (03/2019 ~ 03/2022)
 
 Improving and growing an enterprise web app for the insurance sector. Dabbling on mobile app development with Flutter here and there.
+
+- Developed features in an agile, cross-functional product team, for both web and mobile applications in the insurance sector.
+- Validated business value of potential features via prototypes and user monitoring.
+- Led front-end chapter, championing software and delivery quality via acceptance tests and continuous improvement practices.
 
 ### HAPPYCAR (01/2017 ~ 02/2019)
 
 Part-time software developer, part-time UX/UI designer. Full-time problem solver.
+
+- Improved performance of key marketing pages of the business, leading to 100% pagespeed score at the time - which in turn increased session lengths and google search ranking.
+- A/B testing of features to confirm business value before full releases.
 
 ### Toptal (07/2016 ~ 12/2016)
 
@@ -57,7 +71,9 @@ Centro Universitário Ritter dos Reis - Porto Alegre, RS, Brazil
 **Technical Degree in Information Systems** _(2008 - 2009)_<br/>
 Instituto Federal do Rio Grande do Sul - Porto Alegre, RS, Brazil
 
-## Technologies and programming languages
+<!-- TODO: Tech cloud (marquee) -->
+
+## Technologies, programming languages and tools
 
 Things I'm proficient at:
 
@@ -65,19 +81,24 @@ Things I'm proficient at:
 - TypeScript
 - React (&amp; libraries that frequently go together)
 - Front-end stack (HTML, CSS, JavaScript, ES6+)
-- Front-end build tools (NPM, Webpack)
-- Transpilers and preprocessors (Sass, Postcss, Babel)
-- Graphics software (Sketch, Adobe Photoshop &amp; Illustrator, Figma)
+- Front-end build tools (NPM, Webpack, others)
 - Git
+- E2E testing, especially via Cypress
+- Unit testing
 
 Things I have worked with:
 
-- Flutter &amp; Dart
+- Next.js
+- Tailwind CSS
+- Transpilers and preprocessors (Sass, Postcss, Babel)
+- Graphics software (Sketch, Adobe Photoshop &amp; Illustrator, Figma)
+- Docker
+- GraphQL
+- CI/CD, especially via Github Actions
+- REST APIs
+- Kotlin and Java
+- Flutter and Dart
 - AWS (Lambda / Cloudfront / S3 / Cloudformation / API Gateway / Route 53 / Codepipeline)
-- Ruby and Rails
+- Ruby and Ruby on Rails
 - PHP and Laravel
 - Query languages: MySQL and Postgres
-
-## Outside of work
-
-I enjoy listening to modern death metal - sometimes playing it too, going to the gym and doing the occasional scale modeling.
