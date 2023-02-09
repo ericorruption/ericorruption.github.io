@@ -9,7 +9,11 @@ export interface Props {
   image?: string;
 }
 
-const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
+const {
+  title,
+  description,
+  image = "/assets/img/placeholder-social.png",
+} = Astro.props;
 ---
 
 <meta name="theme-color" content="#9efadb" />
