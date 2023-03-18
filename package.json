@@ -17,7 +17,7 @@
     "astro": "^2.1.2"
   },
   "volta": {
-    "node": "16.17.0"
+    "node": "18.15.0"
   },
   "devDependencies": {
     "prettier": "^2.8.4",
