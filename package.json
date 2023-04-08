@@ -13,7 +13,7 @@
     "@astrojs/mdx": "^0.18.2",
     "@astrojs/rss": "^2.3.2",
     "@astrojs/sitemap": "^1.2.1",
-    "@google/model-viewer": "^3.0.2",
+    "@google/model-viewer": "^3.1.0",
     "astro": "^2.1.9"
   },
   "volta": {
