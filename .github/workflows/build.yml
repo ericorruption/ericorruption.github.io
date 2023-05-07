@@ -25,6 +25,8 @@ jobs:
       # - run: npm ci
       # - run: npm test
       - uses: withastro/action@v0
+        with:
+          node-version: 18
 
   deploy:
     needs: build
