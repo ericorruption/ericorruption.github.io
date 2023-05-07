@@ -4,7 +4,7 @@ This project was bootstrapped with [astro](https://astro.build/).
 
 ## Dependencies
 
-- [Node v16.17.0](https://nodejs.org/) + NPM, preferably via [volta](https://volta.sh/)
+- [Node v18.15.0](https://nodejs.org/) + NPM, preferably via [volta](https://volta.sh/)
 
 ## Installing
 
