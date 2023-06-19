@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/BlogPost.astro"
+layout: "../layouts/TextLayout.astro"
 title: "About me"
 description: "Where I came from, where I'm at, where I'm going"
 updatedDate: "February 05 2023"

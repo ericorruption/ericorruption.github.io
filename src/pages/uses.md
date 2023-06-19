@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/BlogPost.astro"
+layout: "../layouts/TextLayout.astro"
 title: "Uses"
 description: "Software and hardware I use"
 updatedDate: "February 16 2023"
@@ -18,6 +18,7 @@ This page is inspired by [Wes Bos's](https://wesbos.com/uses).
   - Extensions: OneTab, uBlock Origin, Privacy Badger, OctoLinker, SteamDB
 - Database management: TablePlus
 - VCS: I used Sourcetree for a good part of a decade due to its great branch visualization. Switched to a VS Code extension called Git Graph that accomplishes the same thing but doesn't require me to switch apps. For other version control needs, VS Code's UI and the terminal suffice.
+- [Namecheap](https://www.namecheap.com/) is my preferred domain registrar.
 
 [Check out my dotfiles.](https://github.com/ericorruption/dotfiles)
 

@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from "astro:content";
+import BlogPost from "./BlogPost.astro";
+
+type Props = {
+  content: Omit<CollectionEntry<"blog">["data"], "pubDate" | "updatedDate"> & {
+    updatedDate?: string;
+  };
+};
+
+const { updatedDate } = Astro.props.content;
+---
+
+<BlogPost
+  {...Astro.props.content}
+  updatedDate={updatedDate ? new Date(updatedDate) : undefined}
+>
+  <slot />
+</BlogPost>
