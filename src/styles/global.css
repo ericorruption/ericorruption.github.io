@@ -138,6 +138,12 @@ h1 {
   }
 }
 
+h2:not(:first-child),
+h3:not(:first-child) {
+  margin-top: 1.5em;
+  margin-bottom: .75em;
+}
+
 p {
   margin-top: 0;
 }
