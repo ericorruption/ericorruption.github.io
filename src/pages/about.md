@@ -7,15 +7,15 @@ updatedDate: "February 05 2023"
 ---
 
 I was born and raised in southern Brazil.
-My work life started roughly when Myspace became popular - if I recall correctly between 2007 and 2009. Myspace allowed users to customize their profiles and create all sorts of interesting web designs, what I believe to be one of the biggest reasons for its popularity. This, aligned with my interest in music, led me to work as web designer for musician friends and acquaintances.
+My work life started roughly when Myspace was at the tail end of its popularity, between 2007 and 2009. Myspace allowed users to customize their profiles and create all sorts of interesting web designs, what I believe to be one of the biggest reasons for it rising to fame. This, aligned with my interest in music, led me to work as web designer for musician friends and acquaintances.
 
-I loved it. I liked the visual exploration needed to achieve a unique web design, and then having to figure out how to translate those designs into code, specifically for that platform. That involved a decent amount of hacking (table layouts, anyone? javascript hover states with image replacement?), which was challenging but ended up being formative to where I am today.
+I loved it. I liked the visual exploration needed to achieve unique web designs, and then having to figure out how to translate those designs into code, specifically for that platform. That involved a decent amount of hacking (table layouts, anyone? javascript hover states with image replacement?), which was challenging but ended up being formative to where I am today.
 
-Fast forward a few years and I'm not as involved with web design, but I ended up discovering that front-end is what the code that I like to write the most is called. Code that delivers interactivity, content, and ultimately awesome experiences to customers.
+Fast forward a few years and I'm not as involved with web design, but I ended up discovering that the code that I like to write the most is usually called "front-end". Code that delivers interactivity, content, and ultimately awesome experiences to customers.
 
 --
 
-Nowadays I help businessess achieve results via technology - as little of it as possible. I'm pretty flexible with that statement as it always depends on context: how big the business is, how old it is, how large the team is, how much time do we have.
+Nowadays I help businesses achieve results via technology - as little of it as possible. I'm pretty flexible with that statement as it always depends on context: how big the business is, how old it is, how large the team is, how much time do we have.
 
 I'm also flexible when it comes to technical preferences: I do like my front-end, but I don't shy away from work that involves infrastructure, back-ends, databases or CI/CD pipelines, and I'm not married to any one programming language or framework.
 
@@ -27,7 +27,7 @@ Have a look around and get in touch with me by going to the links at the bottom 
 
 ## Work experience
 
-I have vast experience on multi-disciplinary product teams and solo work as a contractor.
+I have vast experience on cross-functional product teams and solo work as a contractor.
 
 ### Jimdo (04/2022 ~ Now)
 
@@ -75,7 +75,7 @@ Instituto Federal do Rio Grande do Sul - Porto Alegre, RS, Brazil
 
 ## Technologies, programming languages and tools
 
-Things I'm proficient at:
+I'm proficient at:
 
 - Node.js
 - TypeScript
@@ -86,7 +86,7 @@ Things I'm proficient at:
 - E2E testing, especially via Cypress
 - Unit testing
 
-Things I have worked with:
+I'm familiar with:
 
 - Next.js
 - Tailwind CSS
