@@ -16,4 +16,5 @@ updates:
       day: "saturday"
       time: "23:00"
     groups:
-      patterns: "*"
+      patterns:
+        - "*"
