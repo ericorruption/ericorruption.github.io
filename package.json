@@ -18,7 +18,7 @@
     "astro": "^2.10.14"
   },
   "volta": {
-    "node": "18.15.0"
+    "node": "20.5.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.37.1",
