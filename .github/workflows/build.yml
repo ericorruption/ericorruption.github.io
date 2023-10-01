@@ -24,7 +24,7 @@ jobs:
       #     node-version: 16
       # - run: npm ci
       # - run: npm test
-      - uses: withastro/action@v0
+      - uses: withastro/action@v1
         with:
           node-version: 20.5.1
 
