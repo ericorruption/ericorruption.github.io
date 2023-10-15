@@ -11,11 +11,11 @@
     "test": "playwright test"
   },
   "dependencies": {
-    "@astrojs/check": "^0.2.0",
-    "@astrojs/mdx": "^1.1.1",
+    "@astrojs/check": "^0.2.1",
+    "@astrojs/mdx": "^1.1.2",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.1",
-    "@google/model-viewer": "^3.2.1",
+    "@google/model-viewer": "^3.3.0",
     "astro": "^3.2.0",
     "typescript": "^5.2.2"
   },
