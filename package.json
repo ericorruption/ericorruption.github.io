@@ -14,9 +14,9 @@
     "@astrojs/check": "^0.2.1",
     "@astrojs/mdx": "^1.1.2",
     "@astrojs/rss": "^3.0.0",
-    "@astrojs/sitemap": "^3.0.1",
+    "@astrojs/sitemap": "^3.0.2",
     "@google/model-viewer": "^3.3.0",
-    "astro": "^3.2.0",
+    "astro": "^3.3.2",
     "typescript": "^5.2.2"
   },
   "volta": {
