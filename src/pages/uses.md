@@ -40,4 +40,4 @@ This page is inspired by [Wes Bos's](https://wesbos.com/uses).
 
 ## This website
 
-This website is built with [Astro](https://astro.build/), hosted on [Github Pages](https://pages.github.com/) and its source code is available on [Github](https://github.com/ericorruption/ericorruption.github.io/).
+This website is built with [Astro](https://astro.build/), hosted on [Cloudflare Pages](https://pages.cloudflare.com/) and its source code is available on [Github](https://github.com/ericorruption/ericorruption.github.io/).

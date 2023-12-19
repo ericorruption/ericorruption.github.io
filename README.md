@@ -24,7 +24,7 @@ run `npm run` for a list of available commands.
 
 ## Deployment
 
-Deployments are automated via github actions / workflows + a staging deployment on netlify: https://staging-ericquanz.netlify.app/
+Deployments are automatic on cloudflare pages.
 
 ## Contributing
 
