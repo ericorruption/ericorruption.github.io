@@ -24,7 +24,7 @@ run `npm run` for a list of available commands.
 
 ## Deployment
 
-Deployments are automatic on cloudflare pages.
+Deployments are automatic on cloudflare pages: every PR creates a new preview deployment. Changes in `master` generate a production deployment.
 
 ## Contributing
 
