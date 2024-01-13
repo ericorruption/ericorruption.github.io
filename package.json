@@ -11,12 +11,12 @@
     "test": "playwright test"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.3",
-    "@astrojs/mdx": "^2.0.1",
-    "@astrojs/rss": "^4.0.1",
-    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/mdx": "^2.0.4",
+    "@astrojs/rss": "^4.0.2",
+    "@astrojs/sitemap": "^3.0.4",
     "@google/model-viewer": "^3.3.0",
-    "astro": "^4.0.6",
+    "astro": "^4.1.2",
     "typescript": "^5.3.3"
   },
   "volta": {
