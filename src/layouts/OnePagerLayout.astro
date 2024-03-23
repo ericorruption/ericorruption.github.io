@@ -1,0 +1,26 @@
+---
+
+const {frontmatter} = Astro.props;
+
+---
+
+<style>
+  body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    max-width: 56ch;
+    padding: 5%;
+    margin: auto;
+  }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <h1>{frontmatter.title}</h1>
+    <slot />
+  </body>
+</html>
